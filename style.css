@@ -1,0 +1,77 @@
+body{
+    font-family: 'Nerko One', cursive;
+    margin: 0%;
+}
+   h1{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
+.name-highlight{
+    color: orange;
+}
+.left-up{
+    /* border: solid; */
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.left-up img{
+    float: left;
+    width: 90%;
+    height: 440px;
+    margin-top: 20px;
+}
+.top-banner{
+    background-image: url(images/circel.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    border-color: aqua;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 30px;
+    /* background-color: orange; */
+    padding: 10px 20px;
+    color: aliceblue;
+    background-image: linear-gradient(45deg, lightSalmon,Tomato);
+
+}
+.heading{
+    font: caption;
+    font-weight: 900;
+    font-size: large;
+}
+
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.lowerpart{
+    background-image: url("images/leftcircelbig.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#first{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    background-position: left;
+    border-image-slice: 1;
+}
+#second{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,orange,Tomato);
+    background-position: left;
+    border-image-slice: 1;
+}
